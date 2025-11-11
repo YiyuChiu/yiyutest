@@ -13,51 +13,51 @@
     *{box-sizing:border-box}
     html,body{margin:0; height:100%}
     body{
-      font-family:"Inter","Segoe UI","Microsoft JhengHei",system-ui,sans-serif; color:var(--text);
+      font-family:"Inter","Segoe UI","Microsoft JhengHei"，system-ui，sans-serif; color:var(--text);
       background:
-        radial-gradient(900px 500px at 85% 10%, rgba(0,246,255,0.12), transparent 60%),
-        radial-gradient(700px 500px at 10% 20%, rgba(255,215,0,0.08), transparent 70%),
+        radial-gradient(900px 500px at 85% 10%， rgba(0,246,255,0.12)， transparent 60%),
+        radial-gradient(700px 500px at 10% 20%， rgba(255,215,0,0.08)， transparent 70%),
         linear-gradient(135deg, #07161b, var(--bg2));
       background-attachment:fixed;
     }
     /* Nav */
-    .nav{
+    。nav{
       position:sticky; top:0; z-index:50; backdrop-filter: saturate(150%) blur(10px);
       background:var(--nav); border-bottom:1px solid var(--border);
     }
-    .nav-inner{max-width:1150px; margin:0 auto; display:flex; align-items:center; gap:16px; padding:10px 16px}
-    .nav-logo{display:flex; align-items:center; gap:10px; color:#fff; text-decoration:none; font-weight:800}
-    .nav-logo svg{width:28px; height:28px}
-    .nav-links{margin-left:auto; display:flex; gap:14px}
-    .nav-links a{color:#cfe7ee; text-decoration:none; padding:8px 10px; border-radius:8px; transition:.2s}
-    .nav-links a:hover{background:rgba(255,255,255,0.08)}
+    。nav-inner{max-width:1150px; margin:0 auto; display:flex; align-items:center; gap:16px; padding:10px 16px}
+    。nav-logo{display:flex; align-items:center; gap:10px; color:#fff; text-decoration:none; font-weight:800}
+    。nav-logo svg{width:28px; height:28px}
+    。nav-links{margin-left:auto; display:flex; gap:14px}
+    。nav-links a{color:#cfe7ee; text-decoration:none; padding:8px 10px; border-radius:8px; transition:.2s}
+    。nav-links a:hover{background:rgba(255,255,255,0.08)}
 
     header{position:relative; padding:96px 24px 56px; text-align:center; overflow:hidden}
-    .stars{position:absolute; inset:0; pointer-events:none}
-    .stars span{
+    。stars{position:absolute; inset:0; pointer-events:none}
+    。stars span{
       position:absolute; width:2px; height:2px; background:rgba(255,255,255,0.8); border-radius:50%;
       box-shadow:0 0 10px rgba(255,255,255,0.8);
       animation: twinkle 3s infinite;
     }
-    @keyframes twinkle { 0%,100%{opacity:.4; transform:scale(1)} 50%{opacity:1; transform:scale(1.6)} }
-    .brand{display:inline-flex; align-items:center; gap:18px}
-    .shield{width:82px; height:82px; filter: drop-shadow(0 0 24px rgba(0,246,255,.35))}
-    .title{font-size:52px; font-weight:900; letter-spacing:.7px; color:var(--accent); position:relative}
-    .badge{display:inline-block; margin-left:12px; padding:6px 16px; border-radius:999px; background:linear-gradient(135deg,#ffd700,#ffb300); color:#1a1a1a; font-weight:800; box-shadow:0 0 28px rgba(255,215,0,.55)}
-    .beam{
+    @keyframes twinkle { 0%，100%{opacity:.4; transform:scale(1)} 50%{opacity:1; transform:scale(1.6)} }
+    。brand{display:inline-flex; align-items:center; gap:18px}
+    。shield{width:82px; height:82px; filter: drop-shadow(0 0 24px rgba(0,246,255,.35))}
+    。title{font-size:52px; font-weight:900; letter-spacing:.7px; color:var(--accent); position:relative}
+    。badge{display:inline-block; margin-left:12px; padding:6px 16px; border-radius:999px; background:linear-gradient(135deg,#ffd700,#ffb300); color:#1a1a1a; font-weight:800; box-shadow:0 0 28px rgba(255,215,0,.55)}
+    。beam{
       position:absolute; left:50%; top:50%; width:0; height:0; pointer-events:none;
       box-shadow: 0 0 60px 20px rgba(0,246,255,.12);
-      transform: translate(-50%,-50%);
+      transform: translate(-50%，-50%);
       animation: beam 4.5s ease-in-out infinite;
     }
     @keyframes beam { 0%{opacity:.4} 50%{opacity:.9} 100%{opacity:.4} }
-    .sub{max-width:980px; margin:18px auto 0; color:var(--muted)}
+    。sub{max-width:980px; margin:18px auto 0; color:var(--muted)}
 
     main{max-width:1150px; margin:0 auto; padding:28px 24px 96px}
     h2{margin:40px 0 16px; font-size:24px; color:var(--accent); border-left:5px solid var(--accent); padding-left:10px}
     h3{margin:12px 0 8px; font-size:18px; color:var(--accent2)}
-    .glass{position:relative; background:var(--card); border:1px solid var(--border); border-radius:18px; padding:22px; box-shadow:0 12px 40px rgba(0,0,0,.45); backdrop-filter: var(--glass)}
-    .grid{display:grid; gap:18px; grid-template-columns: repeat(auto-fit,minmax(260px,1fr))}
+    。glass{position:relative; background:var(--card); border:1px solid var(--border); border-radius:18px; padding:22px; box-shadow:0 12px 40px rgba(0,0,0,.45); backdrop-filter: var(--glass)}
+    。grid{display:grid; gap:18px; grid-template-columns: repeat(auto-fit,minmax(260px,1fr))}
     ul{margin:0; padding-left:18px}
     li{margin:8px 0}
     .flow{display:flex; flex-wrap:wrap; gap:10px}
@@ -31556,3 +31556,4 @@ z"/>
   </main>
 </body>
 </html>
+
